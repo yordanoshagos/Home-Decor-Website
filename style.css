@@ -1,0 +1,213 @@
+@font-face {
+    font-family: poppins;
+    src: url(FONTS/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: comic_neue;
+    src: url(FONTS/Comic_Neue/ComicNeue-Bold.ttf);
+}
+@font-face {
+    font-family: CormonatGaramond;
+    src: url(FONTS/Cormorant_Garamond/static/CormorantGaramond-Medium.ttf);
+}
+@font-face {
+    font-family: west-wing;
+    src: url(FONTS/alternative-the-west-wing-font/Lapidary\ roman.ttf);
+}
+@font-face {
+    font-family: avenir;
+    src: url(FONTS/avenir-condensed-hand/AvenirCondensedHand.ttf);
+}
+@font-face {
+    font-family: carra;
+    src: url(FONTS/MacondoSwashCaps-Regular.ttf);
+}
+@font-face {
+    font-family: nikea;
+    src: url(FONTS/NIKEA.ttf);
+}
+@font-face {
+    font-family: vision;
+    src: url(FONTS/vision/Vision-Bold.otf);
+}
+
+
+
+.Rectangle{
+    position: relative;
+    width: 674.49px;
+    height: 668.42px;
+    }
+    .Rectangle1{
+    box-sizing: border-box;
+    position: absolute;
+    left: 46.11%;
+    right: -21.05%;
+    top: 4.88%;
+    bottom: 38.85%;
+    background: #534D4D;
+    border: 1px solid #5E5858;
+    border-radius: 53px;
+    transform: rotate(43.29deg);
+    }
+    .Rectangle2{
+    position: absolute;
+    left: 1.04%;
+    right: -10.08%;
+    top: -28.32%;
+    bottom: 87.22%;
+    background: #FFF7F7;
+    }
+    .Rectangle4{
+    position: absolute;
+    width: 462px;
+    height: 353px;
+    top: 42%;
+    left: 20%;
+    background: #FFF9F9;
+    border-radius: 53px;
+    }
+    .Rectangle3{
+    position: absolute;
+    left: 102.68%;
+    right: -60.07%;
+    top: 7.53%;
+    bottom: 25.35%;
+    background: #FFFCFC;
+    }
+    .Polygon{
+    position: absolute;
+    left: 60.26%;
+    right: -7.7%;
+    top: 65.51%;
+    bottom: 15.57%;
+    margin-left: 210px;
+    background: #FFFCFC;
+    transform: rotate(55.06deg);
+    }
+    .element{
+        float: right;
+        margin-top: -5%;
+        overflow: hidden;
+        position: relative;
+        z-index: -1;
+        
+    }
+    .icon{
+        display: flex;
+        gap: 15%;
+        top: 13.5%;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        margin-left: 90%;
+        cursor: pointer;
+        overflow: visible;
+        right:19.8%;
+    }
+    #search{
+       margin-top: 10%;
+    }
+    #person{
+        margin-top: 10%;
+    }
+    #shoppingBag{
+        margin-top: 10%;
+    }
+    .caraa{
+        font-family: carra;
+        font-size: 190%;
+
+    }
+    body{
+        width: 78%;
+        padding: 5%;
+        /* margin-inline-start: 8%; */
+    }
+    .home{
+        display: flex;
+        gap: 40%; 
+        padding-top: 4%;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .navig{
+        display: flex;
+        gap: 17%;
+        font-family: CormonatGaramond;
+    }
+    .tree img{
+        margin-left: 56.85%;
+        margin-top: -26.5%;
+        overflow: hidden;
+        position: relative;
+
+    }
+     .elevate{
+        font-family: CormonatGaramond;
+        font-size: 190%;
+        margin-top: -35%;
+     }
+     #para1{
+        font-size: 50%;
+        margin-bottom: -2%;
+     }
+     #homie{
+        border: dashed 2px gray;
+     }
+
+     .start {
+        display: flex;
+        gap: 24px;
+    }
+    .start p {
+        padding: 7px;
+        margin-bottom: 0px;
+        font-family: poppins;
+    }
+    button {
+        border-radius: 40px;
+        background-color: rgb(71, 70, 70);
+        border: solid 1px rgb(71, 70, 70);
+        font-size: 15px;
+        height: 78px;
+        width: 180px;
+        color: white;
+        font-family: poppins;
+    }
+    .youtube{
+        margin-top: 2.5%;
+        width: 29px;
+        height: 35px;
+        margin-left: -0.5%;
+    }
+    #para2{
+        font-size: 53%;
+        margin-left: -2%;
+
+    }
+
+.nums {
+    display: flex;
+    gap: 7%;
+    font-size: 27px;
+    padding-top: 0px;
+    margin-top: 4%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.descriptions {
+    display: flex;
+    gap: 4.9%;
+    padding-top: 13px;
+    font-family: poppins;
+    font-size: 75%;
+
+}
+.logos {
+    display: flex;
+    gap: 60px;
+    margin-top: 150px;
+    font-size: 45px;
+    margin-bottom: 70px;
+}
